@@ -234,6 +234,16 @@ void loop() {
  * Public Constants
  *************************************************/
 /*
+/* Arduino Mario Bros Tunes With Piezo Buzzer and PWM
+ 
+             by : ARDUTECH
+  Connect the positive side of the Buzzer to pin 3,
+  then the negative side to a 1k ohm resistor. Connect
+  the other side of the 1 k ohm resistor to
+  ground(GND) pin on the Arduino.
+  */
+  
+/*
 #define NOTE_B0  31
 #define NOTE_C1  33
 #define NOTE_CS1 35
@@ -324,7 +334,7 @@ void loop() {
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
 
-#define melodyPin 3
+#define melodyPin 11
 //Mario main theme melody
 int melody[] = {
   NOTE_E7, NOTE_E7, 0, NOTE_E7,
